@@ -39,10 +39,6 @@ p
 	line-height: 180%;
 }
 
-strong
-{
-}
-
 a
 {
 	color: #2C383B;
@@ -319,14 +315,6 @@ ul.contact li a.icon-rss:before
 	color: #FFF;
 }
 
-.button:hover
-{
-}
-
-.button:active
-{
-}
-
 .button-big
 {
 	padding: 1.6em 4em;
@@ -452,18 +440,10 @@ ul.contact li a.icon-rss:before
 	background: #ECECEC;
 }
 
-#menu li:hover a, #menu li.active a, #menu li.active span
-{
-}
-
 #menu .current_page_item a
 {
 	background: #E24E2A;
 	color: #FFF;
-}
-
-#menu .icon
-{
 }
 
 /*********************************************************************************/
@@ -723,14 +703,6 @@ ul.contact li a.icon-rss:before
 	margin: 0em auto 0em auto;
 	width: 1200px;
 	position: relative;
-}
-
-#slider .button
-{
-}
-
-#slider .button:hover
-{
 }
 
 #slider .viewer
