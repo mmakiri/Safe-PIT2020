@@ -1,4 +1,4 @@
-# This file contains major changes made to this project #
+# This file contains major changes made in to this project #
 
 Constructing pylons
 
