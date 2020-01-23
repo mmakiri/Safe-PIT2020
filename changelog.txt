@@ -10,4 +10,7 @@ New pylons constructed hol up
 21.1.2020 -mmakiri
 
 Header tab on context pages are now fixed. Made nav buttons easier to read.
-21.1.2020 -mmakiri
+22.1.2020 -mmakiri
+
+Responsibility fix on header.
+23.1.2020 -mmakiri
