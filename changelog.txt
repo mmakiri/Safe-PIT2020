@@ -14,3 +14,6 @@ Header tab on context pages are now fixed. Made nav buttons easier to read.
 
 Responsibility fix on header.
 23.1.2020 -mmakiri
+
+Uploaded files to server, webpage is now runnig
+30.1.2020 -mmakiri
