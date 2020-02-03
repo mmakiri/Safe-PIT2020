@@ -4271,8 +4271,11 @@ input, select, textarea {
 			#topheader > .inner > h2 {
 				line-height: 2em;
 				position: fixed;
-				left: 10px;
+				padding-left: 10px;
+				padding-right: 10px;
+				left: 0px;
 				top: 0px;
+				background-color: black;
 				
 			}	
 
