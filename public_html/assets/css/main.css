@@ -4445,11 +4445,12 @@ input, select, textarea {
 						#topheader > .inner > #navbar > nav > ul > li {
 							height: inherit;
 							line-height: inherit;
-							margin: 0 0 0 2em;
-							padding-left: 10px;
-							padding-right: 10px;
+							margin: 0;
 							display: table;
-							text-align: center;	
+							text-align: center;
+							width: 100%;
+							padding-left: 20px;
+							padding-right: 20px;
 						}
 	
 							#topheader > .inner > #navbar > nav > ul > li > a {
