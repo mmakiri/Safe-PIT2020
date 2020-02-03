@@ -4411,6 +4411,7 @@ input, select, textarea {
 						background-color: black;
 						padding-left: 15.75px;
 						padding-right: 15.75px;
+						text-decoration: none;
 					}
 
 					#topheader > .inner > #navbar > nav {
