@@ -4392,7 +4392,6 @@ input, select, textarea {
   						background-color: black;
 						width: 50%;
 						height: auto;
- 						box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 						z-index: 10000;
 						overflow: visible;
 						top:-5px;
