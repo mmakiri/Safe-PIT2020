@@ -4396,7 +4396,7 @@ input, select, textarea {
 						height: auto;
 						z-index: 10000;
 						overflow: visible;
-						top:-5px;
+						top: 0px;
 						border-bottom: solid 5px !important;
 						border-color: rgb(0, 0, 0) !important;
 						text-align: center;
@@ -4426,7 +4426,6 @@ input, select, textarea {
 						background-color: black;
 						text-align: center;
 						padding-bottom: 20px;
-						margin-top: 52px;
 					}
 	
 					#topheader > .inner > #navbar > nav > ul {
