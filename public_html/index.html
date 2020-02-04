@@ -13,22 +13,25 @@
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</head>
 	<body class="is-preload">
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<h2><a href="index.html">SAFE SECURITY</a></h2>
+		<!-- Header -->
+		<section id="topheader">
+			<div class="inner">
+				<h2><a href="index.html">SAFE SECURITY</a></h2>
+				<div id="navbar">
 					<nav>
 						<ul>
-							<li><a href="#intro">Tervetuloa</a></li>
-							<li><a href="#one">Palvelumme</a></li>
-							<li><a href="#two">Keitä me olemme</a></li>
-							<li><a href="#three">Ota yhteyttä</a></li>
+							<li><a href="index.html"  class="active">Etusivu</a></li>
+							<li><a href="palvelut.html">Palvelumme</a></li>
 							<li><a href="tyontekijat.html">Työntekijät</a></li>
 						</ul>
 					</nav>
 				</div>
-			</section>
-		<!-- Wrapper -->
+				<a href="javascript:void(0);" class="icon" onclick="navbar()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</section>
+		<!-- Header -->
 			<div id="wrapper">
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
@@ -189,5 +192,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/navbar.js"></script>
 	</body>
 </html>
