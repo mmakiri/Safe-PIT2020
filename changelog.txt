@@ -17,3 +17,6 @@ Responsibility fix on header.
 
 Uploaded files to server, webpage is now runnig
 30.1.2020 -mmakiri
+
+Server automaticly pulls from master
+4.2.2020 -mmakiri
