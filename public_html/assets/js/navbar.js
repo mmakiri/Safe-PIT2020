@@ -8,7 +8,7 @@ function navbar() {
 	}
 	if (event.target.classList.contains('icon')){
         dropdown.classList.toggle('show');
-    } else {
+    	} else {
         dropdown.classList.remove('show');
-    }
-  }
+    	}
+}
