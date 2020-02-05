@@ -1,9 +1,8 @@
-$(document).click(function(event) { 
-	$target = $(event.target);
-	if(!$target.closest('navbar').length && 
-	$('navbar').is(":visible")) {
-	  $('navbar').hide();
-	}        
+window.addEventListener('mouseup', function(event){
+	var x = document.getElementById("navbar");
+	if (event.target != box && event.target.parentNode != box){
+		box.style.display = 'none';
+	}
 });
 
 function navbar() {
