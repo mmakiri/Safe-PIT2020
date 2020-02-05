@@ -7,5 +7,5 @@ git stash
 git pull
 git fetch -p origin
 git merge origin/master
-chmod -R 755 *
+chmod -R 711 *
 echo Done
