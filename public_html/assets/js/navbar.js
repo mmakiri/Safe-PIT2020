@@ -1,5 +1,9 @@
-document.getElementById("navbar").addEventListener("click", function() {
-	alert("Hello World!");
+$(document).click(function(event) { 
+	$target = $(event.target);
+	if(!$target.closest('navbar').length && 
+	$('navbar').is(":visible")) {
+	  $('navbar').hide();
+	}        
 });
 
 function navbar() {
