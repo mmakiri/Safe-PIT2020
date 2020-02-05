@@ -1,8 +1,8 @@
 window.addEventListener('mouseup', function(event){
-	var x = document.getElementById("navbar");
+	var box = document.getElementById('navbar');
 	if (event.target != box && event.target.parentNode != box){
-		box.style.display = 'none';
-	}
+        box.style.display = 'none';
+    }
 });
 
 function navbar() {
