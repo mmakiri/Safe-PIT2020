@@ -1,3 +1,4 @@
+document.addEventListener("click", toggleDropdown);
 function navbar() {
 	var x = document.getElementById("navbar");
 	if (x.style.display === "block") {
@@ -5,4 +6,9 @@ function navbar() {
 	} else {
 	  x.style.display = "block";
 	}
+	if (event.target.classList.contains('icon')){
+        dropdown.classList.toggle('show');
+    } else {
+        dropdown.classList.remove('show');
+    }
   }
