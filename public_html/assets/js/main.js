@@ -3,7 +3,24 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+window.addEventListener('mouseup', function(event){
+	var box = document.getElementById('navbar');
+	if (event.target != box && event.target.parentNode != box){
+        box.style.display = 'none';
+    }
+});
 
+function navbar() {
+	var x = document.getElementById("navbar");
+	if (x.style.display === "block") {
+	  x.style.display = "none";
+	} else {
+	  x.style.display = "block";
+	}
+  }
+function submit() {
+	alert("I am an alert box!");
+}
 (function($) {
 
 	var	$window = $(window),
