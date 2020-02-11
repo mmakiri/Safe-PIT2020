@@ -26,3 +26,6 @@ Improved pull script
 
 Fixed typos, added content
 11.2.2020 -SukoJonesi
+
+v1.0 Ready
+11.2.2020 -mmakiri
