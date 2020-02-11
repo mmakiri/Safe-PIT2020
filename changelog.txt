@@ -20,3 +20,9 @@ Uploaded files to server, webpage is now runnig
 
 Server automaticly pulls from master
 4.2.2020 -mmakiri
+
+Improved pull script
+5.2.2020 -mmakiri
+
+Fixed typos, added content
+11.2.2020 -SukoJonesi
